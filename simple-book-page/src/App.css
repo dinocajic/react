@@ -1,0 +1,43 @@
+nav > ul {
+  background-color: #333;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;    
+}
+
+nav > ul > li:first-child {
+  font-weight: bold;
+  padding-right: 50px;
+  background-color: #333 !important;
+  cursor: auto !important;
+}
+
+nav > ul > li:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+main > img {
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+main > h1 {
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #333;
+}
+
+footer {
+  clear: left;
+  padding: 10px;
+  background-color: #333;
+  margin: 0;
+  color: silver;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+}
