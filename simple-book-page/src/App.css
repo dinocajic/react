@@ -21,6 +21,10 @@ nav > ul > li:hover {
   cursor: pointer;
 }
 
+main {
+  padding: 10px;
+}
+
 main > img {
   float: left;
   margin: 0 20px 10px 0;
